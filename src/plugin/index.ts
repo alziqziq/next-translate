@@ -29,7 +29,7 @@ export default function nextTranslate(nextConfig: NextConfig = {}): NextConfig {
     nsSeparator,
     defaultNS,
     ...restI18n
-  } = require(path.join(dir, 'i18n')) as I18nConfig & NextConfig["i18n"]
+  } = require(path.join(dir, 'i18n')) as I18nConfig & NextConfig['i18n']
 
   let hasGetInitialPropsOnAppJs = false
 
@@ -83,7 +83,7 @@ export default function nextTranslate(nextConfig: NextConfig = {}): NextConfig {
       config.module.rules.push({
         test,
         use: {
-          loader: 'next-translate/plugin/loader',
+          loader: 'next-translate-al/plugin/loader',
           options: {
             extensionsRgx: extensionsRgx || test,
             revalidate: revalidate || 0,
