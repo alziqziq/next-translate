@@ -99,7 +99,7 @@ mv pages_ pages
 ```diff
 import React from 'react'
 import type { AppProps } from 'next/app'
--import appWithI18n from 'next-translate/appWithI18n'
+-import appWithI18n from 'next-translate-al/appWithI18n'
 -import i18nConfig from '../i18n'
 
 import '../styles.css'

@@ -1,5 +1,5 @@
 import React from 'react'
-import appWithI18n from 'next-translate/appWithI18n'
+import appWithI18n from 'next-translate-al/appWithI18n'
 import i18nConfig from '../i18n'
 
 function MyApp({ Component, pageProps }) {

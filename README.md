@@ -1,3 +1,5 @@
+# i will remove this package, when my [PR](https://github.com/aralroca/next-translate/pull/953#issuecomment-1347702233) is merged
+
 <p align="center">
     <img src="images/logo.svg" width="300" alt="next-translate" />
 </p>

@@ -9,7 +9,7 @@ export const defaultLoader =
 export function getDefaultAppJs(hasLoadLocaleFrom: boolean) {
   return `
   import i18nConfig from '@next-translate-root/i18n'
-  import appWithI18n from 'next-translate/appWithI18n'
+  import appWithI18n from 'next-translate-al/appWithI18n'
 
   function MyApp({ Component, pageProps }) {
     return <Component {...pageProps} />
