@@ -78,7 +78,7 @@ export default function templateWithLoader(
 
   let template = `
     import __i18nConfig from '@next-translate-root/i18n'
-    import __loadNamespaces from 'next-translate/loadNamespaces'
+    import __loadNamespaces from 'next-translate-al/loadNamespaces'
     ${tokenToReplace}
     export async function ${loader}(ctx) {
         ${hasLoader ? `let res = _${loader}(ctx)` : ''}

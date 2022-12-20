@@ -1,6 +1,6 @@
 {
   "name": "next-translate-al",
-  "version": "1.6.1",
+  "version": "1.6.7",
   "description": "Tiny and powerful i18n tools (Next plugin + API) to translate your Next.js pages.",
   "license": "MIT",
   "keywords": [
@@ -58,7 +58,7 @@
     "prepublish": "yarn test && yarn build",
     "test": "cross-env NODE_ENV=test jest --env=jsdom",
     "test:coverage": "cross-env NODE_ENV=test jest --env=jsdom --coverage",
-    "test:watch": "cross-env NODE_ENV=test jest --env=jsdom --watch",
+    "test:watch": "cross-env NODE_ENV=test jest -u --env=jsdom --watch",
     "tsc": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json && node build-packages.js"
   },
   "devDependencies": {
