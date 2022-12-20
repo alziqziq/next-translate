@@ -1,6 +1,6 @@
 {
   "name": "next-translate-al",
-  "version": "1.6.7",
+  "version": "1.6.8",
   "description": "Tiny and powerful i18n tools (Next plugin + API) to translate your Next.js pages.",
   "license": "MIT",
   "keywords": [
